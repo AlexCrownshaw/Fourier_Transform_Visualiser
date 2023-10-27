@@ -44,5 +44,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
+
+![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/Animation_Still.png "Animation_Still")
+![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/FT_polar_27-10-23_23-16-31.png "FT_Polar")
