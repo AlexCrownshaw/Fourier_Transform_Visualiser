@@ -1,7 +1,7 @@
 # Fourier Transform Visualiser
 This project allows users to create their own complex time domain waveforms before converting to the frequency domain
 using a discrete Fourier transform. This project also includes a visualiser module which can create animated gifs showing
-the complex components of each frequency bin, offering some insight to teh inner workings of the Fourier transform
+the complex components of each frequency bin, offering some insight to the inner workings of the Fourier transform
 
 ## Installation
 ```commandline
