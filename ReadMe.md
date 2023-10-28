@@ -22,13 +22,12 @@ from ft_visualiser import Visualiser
 """ PARAMETERS START """
 FREQ1 = 10  # Hz
 FREQ2 = 100
-
 SAVE_PATH = r"C:\Dev\Fourier_Transform_Visualiser\Solutions"
 """ PARAMETERS STOP """
 
 
 def main():
-    w1 = Waveform(freq=FREQ2)
+    w1 = Waveform(freq=FREQ1)
     w2 = Waveform(freq=FREQ2)
     w1.add(data=w2)
 
@@ -38,13 +37,17 @@ def main():
     vis.plot_waveform(save=True)
     vis.plot_polar_waveform(save=True)
     vis.plot_ft(save=True)
+    vis.plot_ft_polar(k_index=10, save=True)
     vis.plot_ft_polar(k_index=100, save=True)
     vis.animate()
 
 
 if __name__ == "__main__":
     main()
+
 ```
 
 ![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/Animation_Still.png "Animation_Still")
-![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/FT_polar_27-10-23_23-16-31.png "FT_Polar")
+![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/FT_polar_28-10-23_12-18-21.png "FT_Polar")
+![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/FT_polar_28-10-23_12-18-26.png "FT_Polar")
+![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/FT_28-10-23_12-18-15.png "FT")
