@@ -10,7 +10,7 @@ SAVE_PATH = r"C:\Dev\Fourier_Transform_Visualiser\Solutions"
 
 
 def main():
-    w1 = Waveform(freq=FREQ2)
+    w1 = Waveform(freq=FREQ1)
     w2 = Waveform(freq=FREQ2)
     w1.add(data=w2)
 
@@ -20,6 +20,7 @@ def main():
     vis.plot_waveform(save=True)
     vis.plot_polar_waveform(save=True)
     vis.plot_ft(save=True)
+    vis.plot_ft_polar(k_index=10, save=True)
     vis.plot_ft_polar(k_index=100, save=True)
     vis.animate()
 

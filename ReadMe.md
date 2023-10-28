@@ -14,6 +14,7 @@ git clone https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser.git
 ```
 
 ## Usage Example
+The following example creates a complex waveform made up of two sine waves at 10Hz and 100Hz. 
 ```python
 from ft_visualiser import Waveform
 from ft_visualiser import FourierTransform
@@ -44,7 +45,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
 
 ![alt text](https://github.com/AlexCrownshaw/Fourier_Transform_Visualiser/blob/master/Solutions/Animation_Still.png "Animation_Still")
